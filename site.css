@@ -1,0 +1,60 @@
+#container{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1{
+    background-color: rgb(199, 174, 231);
+    font-family: "Josefin Sans", serif;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #D6A800;
+    padding: 10px;
+    
+
+}
+
+h2{
+    background-color: rgb(199, 174, 231);
+    font-family: "Josefin Sans", serif;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #D6A800;
+    padding: 10px;
+    
+}
+
+h3{
+    background-color: rgb(199, 174, 231);
+    font-family: "Josefin Sans", serif;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #D6A800;
+    padding: 10px;
+}
+
+h4{
+    background-color: rgb(199, 174, 231);
+    font-family: "Josefin Sans", serif;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #D6A800;
+    padding: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(59, 34, 100);
+    
+}
+a:visited{
+    color:rgb(120, 106, 139);;
+}
+
+a:hover{
+    text-decoration:underline;
+    color: #D6A800;
+}
+
