@@ -4,23 +4,41 @@
 <html>
     <head>
         <title>CSD 340 Web Development with HTML and CSS</title>
-
+        <link href = "Shaw10_3.css" type = "text/css" rel = "stylesheet">
         <script src = "shaw10_3.js"></script>
     </head>
 
     <body>
-        <h1>Assignment 10.3: JavaScript - Part 2</h1>
-        <br />
-        <div>
-
-            <img src = "https://rescode75.github.io/csd-340/Module%2010/mod10images/UndertaleHeart.jpeg" id = "changeable1" onclick = changeImage() width="300"></img>
-          </a>
-          <p>click the image to see it change </p>
-          <a href = '../index.html'>back to landing page</a>
+        <div id = head>
+          <h1>Assignment 10.3: JavaScript - Part 2</h1>
+          <h2>Click the images to see them change</h2>
         </div>
-        <br />
-       
+        
+        <div id = "container">
+
+          <div id = "img1">
+            <figure>
+              <img src = "https://rescode75.github.io/csd-340/module-10/mod10images/UndertaleHeart.jpeg" id = "changeable1" onclick = changeImage1() onMouseOver= "this.style.cursor='pointer'" width="300"></img>
+            </figure>
+            <figcaption>Undertale Heart</figcaption>
+            
+          </div>
+
+          <div id = "img2">
+            <figure>
+              <img src = "https://rescode75.github.io/csd-340/module-10/mod10images/Whall1.jpeg" id = "changeable2" onclick = changeImage2() onMouseOver="this.style.cursor='pointer'"width="500"></img>
+            </figure>
+            <figcaption>Five Nights At Freddy's West Hall Camera</figcaption>
+          </div>
+
+          <div id = "back">
+            <a href = '../index.html'>Back to landing page</a>
+          </div>
+
+        </div>
+
       </body>
+      
     
     </html>
 
