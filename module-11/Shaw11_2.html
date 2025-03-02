@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSD 340 Development with HTML and CSS</title>
+        <script src = Shaw11_2.js></script>
+        <link rel= "stylesheet" href = shaw11_2.css></link>
+    </head>
+    <body>
+        <h1>Assignment 11.2: JavaScript - Part 3</h1>
+        <h2>Interactive To Do List</h2>
+        <p>Type your task in the text box, then click "Add."" Click the "Display" button to see current items in the list. Click "Delete Last Entry" if you'd like to remove the last entry</p>
+        <input id = "input" type="text" name = "listItem" maxlength="30"/>
+        <button type="button" onclick = addToList()>Add</button>
+        <button type="button" onclick = deleteItem() >Delete Last task</button>
+        <button type="button" onclick = displaycheckbox()>Display</button>
+        
+        <hr>
+        <h3>To Do List</h3>
+        <div id = list>
+            <span id = "displayArea">click display to view list</span>
+        </div>
+
+        <hr>
+
+    </body>
+</html>
