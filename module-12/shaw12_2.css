@@ -1,0 +1,63 @@
+/* Rachel Shaw - 12.2 Assignment CSS - 3/6/25 */
+
+h1 {
+    text-align: center;
+}
+
+h3{
+    font-weight: 500;
+}
+
+ol{
+    font-weight: 300;
+    padding:10px;
+    list-style-position: inside;
+}
+
+ul{
+    font-weight: 300;
+    padding: 10px;
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+
+#orderedlist{  
+    display: inline-block;
+    margin-left: 40px;
+    padding-left: 10px;
+    width: 45%;
+    border: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: red;
+}
+
+#unorderedlist{
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: top;
+    padding-left: 10px;
+    height: 200;
+    width: 45%;
+    border: 1px;
+    border-style: dashed;
+    border-radius: 15px;
+    border-color: red;
+
+}
+
+a{
+    text-decoration: none;
+    float:right;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#underdiv{
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px ;
+
+}
