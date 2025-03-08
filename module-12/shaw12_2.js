@@ -1,4 +1,4 @@
-// Rachel Shaw - 3/6/2025 - module 12.2 Assignment 
+// Rachel Shaw - 3/6/2025 - module 12.2 Assignment JavaScript File
 
 
 //Array that holds books 
