@@ -6,18 +6,17 @@
         <link rel= "stylesheet" href = shaw11_2.css></link>
     </head>
     <body>
-        <h1>Assignment 11.2: JavaScript - Part 3</h1>
-        <h2>Interactive To Do List</h2>
-        <p>Type your task in the text box, then click "Add."" Click the "Display" button to see current items in the list. Click "Delete Last Entry" if you'd like to remove the last entry</p>
+        <h1>Interactive To Do list</h1>
+        <p>Type your task in the text box then click "add." Check each item off as you complete them. Then, click "Delete Checked Tasks" to remove the tasks you've completed.</p>
         <input id = "input" type="text" name = "listItem" maxlength="30"/>
         <button type="button" onclick = addToList()>Add</button>
-        <button type="button" onclick = deleteItem() >Delete Last task</button>
-        <button type="button" onclick = displaycheckbox()>Display</button>
+        <button type="button" onclick = deleteSelected() >Delete Checked Tasks</button>
+        
         
         <hr>
         <h3>To Do List</h3>
         <div id = list>
-            <span id = "displayArea">click display to view list</span>
+            <span id = "displayArea">Add an item to see your list</span>
         </div>
 
         <hr>
